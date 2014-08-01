@@ -230,7 +230,7 @@
             <h3>Subscribe US!</h3>
             <form id="subscribeForm" class="form-inline" role="form">
                 <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Subscribe</button>
                 </form>
@@ -254,34 +254,6 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/flipclock/flipclock.min.js"></script>
-
-    <script>
-        var clock = $(".clock").FlipClock(3600, {
-            countdown: true
-        });
-
-        // появление хедера при скролинге страницы
-        $(window).scroll(function () {
-            self = $("#header");
-            if (self.hasClass("hidden")) self.removeClass("hidden");
-            if ($(document).scrollTop() == 0) self.addClass("hidden");
-        });
-
-        $("#subscribeForm").submit(function (e) {
-            e.preventDefault();
-            $.ajax({
-                type: "POST",
-                url: "file.php",
-                data: $(this).serialize(),
-                success: function (response) {
-                    alert("Вы подписаны. Мы будем присылать Вам уведомления о новых голосованиях.");
-                },
-                error: function (xhr, str) {
-                    alert("Возникли технические неисправности. Попробуйте пожалуйста позже.");
-                }
-            });
-        });
-
-    </script>
+    <script src="js/custom.js"></script>
     </body>
 </html>
