@@ -12,12 +12,6 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/flipclock.css">
         <link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -27,19 +21,56 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <!-- <div style="max-width:100% !important; margin: 0 auto;"> -->
-        <div class="navbar-fixed-top custom-header" role="navigation" style="max-width:100% !important; margin: 0 auto;">
+<!--         <div class="navbar-fixed-top custom-header" role="navigation" style="max-width:100% !important; margin: 0 auto;">
             <div class="container text-center header">
-                    <img src="img/logo.png">
+                    <img style="height: auto;" src="img/logo_150.png">
             </div>
-        </div>
+        </div> -->
         <!-- </div> -->
+        
+    <!-- STICKY NAVIGATION -->
+    <div id="header" class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation hidden">
+        <div class="container">
+            <div class="navbar-header">
+                
+                <!-- LOGO ON STICKY NAV BAR -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#"><img src="img/logo_150.png"></a>
+                
+            </div>
+            
+            <!-- NAVIGATION LINKS -->
+            <div class="navbar-collapse collapse" id="kane-navigation">
+                <ul class="nav navbar-nav navbar-right main-navigation">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Benefits</a></li>
+                    <li><a href="#features">How it Works</a></li>
+                    <li><a href="#brief1">Use Cases</a></li>
+                    <li><a href="#screenshot-section">Why Us?</a></li>
+                </ul>
+            </div>
+        </div> <!-- /END CONTAINER -->
+    </div> <!-- /END STICKY NAVIGATION -->
+
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
+        <div class="jumbotron margin-bottom">
             <div>
+
             <div class="row text-center">
+                <div style="padding-top:5px; padding-bottom:10px;"><img src="img/logo_150.png"></div>
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <p class="text-center">Get real-time feedback from your audience</p>
+                    <br>
+                    <p class="text-center">Хочеш бути почутим? Висловлюй свою думку по найважливішим питанням не виходячи з дому. Щодня нове запитання.</p>
+                    <br>
+                    <p>Зараз йде голосування: "Поддерживаете ли вы сепаратистов?!"</p> 
+                    <p>До кінця голосування залишилось:</p>
                 </div>
             </div>
 
@@ -50,62 +81,58 @@
             <!-- <div class="row text-center" style="position: absolute; bottom: 0px;"> -->
             <div class="row text-center">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <p class="text-center">Create second-screen apps to get immediate feedback from audience via interactive polls, quizzes and more</p>
+                    <br>
+                    <p>Для голосування завантажуй аплікейшин «Referendum-UA»</p>
+                    <br>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <p><a class="btn btn-primary btn-lg" role="button">Play &raquo;</a></p>
+                <div class="col-sm-12 col-md-4 col-lg-5">
+                    <p class="pull-right"><a href="#"><img class="buttons_store" src="img/play.png"></a></p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <p><a class="btn btn-primary btn-lg" role="button">App Store &raquo;</a></p>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <p><a href="#"><img class="buttons_store" src="img/apple.png"></a></p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
-                    <p><a class="btn btn-primary btn-lg" role="button">App World &raquo;</a></p>
+                <div class="col-sm-12 col-md-4 col-lg-5">
+                    <p class="pull-left"><a href="#"><img class="buttons_store" src="img/blackberry2.png"></a></p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p style="font-size: 12px"><br><br>Проект «Referendum-UA» поки є неофіційним опитуванням.</p>
                 </div>
             </div>
 </div>
         </div><!-- end of jumbotron -->
 
         <div class="container">
-            <div class="row">
+            <div class="row margin-bottom">
                 <div class="col-sm-12 col-md-8 col-lg-8">
+                    <br><br><br><br>
                     <h3>Poll result</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 about">
-                <h3></h3>
-                <img src="img/4.jpg">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <h1></h1>
+                <img src="img/grafik.png">
             </div>
         </div>
 
-            <div class="row">
-                <div class="col-sm-12 col-md-8 col-lg-8">
+            <div class="row margin-bottom">
+            <div class="col-sm-12 col-md-4 col-lg-4 about">
+            <h1></h1><br><br>
+                <img src="img/4.jpg">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
                     <h3>About</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 about">
-                <h3></h3>
-                <img src="img/4.jpg">
-            </div>
+                    <p>Ми живемо в дуже непростий час, але це час перемін, це час відмирання старого непотреба, та зародження нового, світлого та сильного суспільства, бачення, думок... Але є байдужість, і є часи, коли ця байдужість вбиває...
+                    <br><br>Ми розпочали цей проект тому, що віремо, що в країні майже не залишилося байдужіх людей, тому що є надія на те, що зараз той самий час, коли влада насправді готова почути свій народ, народ, которому ця влада служить. Одже давайте скажимо їм так, щоб вони почули.<br><br>Кожень день ми будемо підіймати нове питання, яке на нашу думку, є важливим для країни, і кожень день ви будите бачити миттеві результати голосування. Приймайте участь самі, раскажіть про нас друзям, підтримайте нас або ненавидьте, але не будьте байдужіми. <br><br>Державний референдум поки ще дуже дорогий та довгий процес, але ми маемо можливість та потребу робити це тут і зараз. Як сказав один політик: "демократія - це референдум кожного дня". Одже голосуємо, бо ми варті кращого.</p>
+                </div>
         </div>
 
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <div class="row" style="background-color: #f6f7f8;">
+        <hr>
+
+        <div class="row margin-bottom" style="background-color: #f6f7f8;">
             <ul class="timeline">
               <li class="col-sm-12 col-md-6 col-lg-6">
                 <div class="tl-circ"></div>
                 <div class="timeline-panel">
-
-
-
-
-
                     <article class="post-wrap">
                         <div class="post-media">
                             <div class="thumbnail no-border do-hover">
@@ -124,19 +151,6 @@
                             <div class="post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscingelit. Maecenas neque diam, luctus at laoreet in, auctor tellus. Etiam enim lacus, ornare et tempor, rhoncus rhon sem dollores missa super martin.</div>
                         </div>
                     </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
               </li>
               <li class="timeline-inverted col-sm-12 col-md-6 col-lg-6">
@@ -214,7 +228,7 @@
         <div class="row text-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
             <h3>Subscribe US!</h3>
-            <form class="form-inline" role="form">
+            <form id="subscribeForm" class="form-inline" role="form">
                 <div class="form-group">
                     <input type="email" class="form-control" id="email" placeholder="Email">
                 </div>
@@ -235,28 +249,39 @@
         </footer>
     </div>
 
-    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <!--<script src="js/flipclock/libs/jquery.js"></script>-->
     <script src="js/flipclock/flipclock.min.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <!--<script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>-->
     <script>
         var clock = $(".clock").FlipClock(3600, {
-            // clockFace: 'TwentyFourHourClock',
             countdown: true
         });
+
+        // появление хедера при скролинге страницы
+        $(window).scroll(function () {
+            self = $("#header");
+            if (self.hasClass("hidden")) self.removeClass("hidden");
+            if ($(document).scrollTop() == 0) self.addClass("hidden");
+        });
+
+        $("#subscribeForm").submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "file.php",
+                data: $(this).serialize(),
+                success: function (response) {
+                    alert("Вы подписаны. Мы будем присылать Вам уведомления о новых голосованиях.");
+                },
+                error: function (xhr, str) {
+                    alert("Возникли технические неисправности. Попробуйте пожалуйста позже.");
+                }
+            });
+        });
+
     </script>
     </body>
 </html>
