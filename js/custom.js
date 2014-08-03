@@ -1,5 +1,5 @@
-$(document).ready(function (e){
-    var clock = $(".clock").FlipClock(10, {
+$(document).ready(function (e) {
+    var clock = $(".clock").FlipClock(7200, {
         countdown: true
     });
 
