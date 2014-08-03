@@ -6,14 +6,10 @@ body, html {
 
 .header {
     padding: 10px;
-    & > img {
-        border-radius: 5px;
-    }
+    & > img { border-radius: 5px; }
 }
 
-.navbar {
-    max-width: 100% !important;
-}
+.navbar { max-width: 100% !important; }
 
 .clock {
     width: 460px;
@@ -36,30 +32,11 @@ body, html {
     margin-bottom: 0px !important;
 }
 
-img {
-    max-width: 100%;
-}
+img { max-width: 100%; }
 
 .row {
     margin: 0;
     padding: 0
-}
- 
-.tldate {
-    display: block;
-    width: 200px;
-    background: #414141;
-    border: 3px solid #212121;
-    color: #ededed;
-    margin: 0 auto;
-    padding: 3px 0;
-    font-weight: bold;
-    text-align: center;
-    -webkit-box-shadow: 0 0 11px rgba(0,0,0,0.35);
-        -moz-box-shadow: 0 0 11px rgba(0,0,0,0.35);
-            -ms-box-shadow: 0 0 11px rgba(0,0,0,0.35);
-                -o-box-shadow: 0 0 11px rgba(0,0,0,0.35);
-                    box-shadow: 0 0 11px rgba(0,0,0,0.35);
 }
 
 .timeline {
@@ -77,9 +54,7 @@ img {
         left: 50%;
         margin-left: -2px;
     }
-    .post-wrap {
-        width: auto !important;
-    }
+    .post-wrap { width: auto !important; }
     .post-excerpt {
         font-size: 13px;
         margin-bottom: 20px;
@@ -197,30 +172,22 @@ img {
     }
 }
 
-.margin-bottom {
-    margin-bottom: 70px !important;
-}
+.margin-bottom { margin-bottom: 70px !important; }
 
 footer p {
     margin-bottom: 20px;
     font-family: italic;
 }
 
-.buttons_store {
-    height: 50px;
-}
+.buttons_store { height: 50px; }
 
 .post-meta {
     padding: 5px;
     font-size: 14px;
     line-height: 14px;
     background-color: #f0f3f5;
-    &, a {
-        color: #717d87
-    }
-    a:hover {
-        color: #1e90ff;
-    }
+    &, a { color: #717d87 }
+    a:hover { color: #1e90ff; }
     .sep:before {
         content: "/";
         margin: 0 5px;
@@ -233,12 +200,8 @@ footer p {
     padding: 0;
     margin-bottom: 0;
     border-radius: 0;
-    &.no-border, &.no-border.hover, &.no-border:hover {
-        border: none;
-    }
-    & > img {
-        width: 100%;
-    }
+    &.no-border, &.no-border.hover, &.no-border:hover { border: none; }
+    & > img { width: 100%; }
 }
 
 .fa {
@@ -251,23 +214,15 @@ footer p {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.fa-heart:before {
-    content: "\f004";
-}
+.fa-heart:before { content: "\f004"; }
 
-/* Blog / Post */
-.post-header {
-    margin-bottom: 15px;
-}
+/* WALL */
+.post-header { margin-bottom: 15px; }
 
 .post-author {
     font-size: 18px;
-    &, a {
-        color: #999999;
-    }
-    a:hover {
-        color :#1E90FF;
-    }
+    &, a { color: #999999; }
+    a:hover { color :#1E90FF; }
 }
 
 .post-media {
@@ -286,57 +241,43 @@ footer p {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: none;
-    &, a {
-        color: #1f2122;
-    }
-    a:hover {
-        color: #1e90ff;
-    }
+    &, a { color: #1f2122; }
+    a:hover { color: #1e90ff; }
 }
 
 .row.margin-bottom {
-    li.left {
-        padding-left:80px;
-        clear:both;
-    }
-    li.right {
-        padding-right:80px;
+    li {
+        &.left {
+            padding-left:80px;
+            clear:both;
+        }
+        &.right { padding-right:80px; }
     }
 }
 
 .wall {
     background-color: #f6f7f8;
-    &:hover {
-        cursor: pointer;
-    };
+    &:hover { cursor: pointer; };
 }
 
 @media (max-width: 991px) {
     .timeline {
-        &:before {
-            display: none;
-        }
+        &:before { display: none; }
         li {
             .timeline-panel {
                 width: 100%;
                 overflow: hidden;
                 margin-bottom: 15px;
-                &:before, &:after {
-                    display: none;
-                };
+                &:before, &:after { display: none; };
             }
-            .tl-circ {
-                display: none;
-            }
+            .tl-circ { display: none; }
         }
     }
 
     .row.margin-bottom {
-        li.left {
-            padding-left:15px;
-        }
-        li.right {
-            padding-right:15px;
+        li {
+            &.left { padding-left:15px; }
+            &.right { padding-right:15px; }
         }
     }
 }

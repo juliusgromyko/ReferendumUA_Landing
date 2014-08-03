@@ -37,22 +37,6 @@ img {
   margin: 0;
   padding: 0; }
 
-.tldate {
-  display: block;
-  width: 200px;
-  background: #414141;
-  border: 3px solid #212121;
-  color: #ededed;
-  margin: 0 auto;
-  padding: 3px 0;
-  font-weight: bold;
-  text-align: center;
-  -webkit-box-shadow: 0 0 11px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0 0 11px rgba(0, 0, 0, 0.35);
-  -ms-box-shadow: 0 0 11px rgba(0, 0, 0, 0.35);
-  -o-box-shadow: 0 0 11px rgba(0, 0, 0, 0.35);
-  box-shadow: 0 0 11px rgba(0, 0, 0, 0.35); }
-
 .timeline {
   list-style: none;
   padding: 0;
@@ -182,7 +166,6 @@ footer p {
 
 .post-meta {
   padding: 5px;
-  /**/
   font-size: 14px;
   line-height: 14px;
   background-color: #f0f3f5; }
@@ -217,7 +200,7 @@ footer p {
 .fa-heart:before {
   content: "\f004"; }
 
-/* Blog / Post */
+/* WALL */
 .post-header {
   margin-bottom: 15px; }
 
