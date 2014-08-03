@@ -34,6 +34,7 @@ $(document).ready(function (e) {
     ];
 
     var offset = 0;
+    var max = 0;
     function slider () {
         $(images).each(function (i, el) {
             setTimeout(function () {
@@ -41,7 +42,8 @@ $(document).ready(function (e) {
             }, 2000 + offset);
             offset += 2000;
         });
-        slider();
+        max++;
+        if (!max > 100) slider();
     };
 
     try {
