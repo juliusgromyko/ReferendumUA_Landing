@@ -43,7 +43,7 @@ $(document).ready(function (e) {
             offset += 2000;
         });
         max++;
-        if (!max > 100) slider();
+        if (max != 100) slider();
     };
 
     try {
